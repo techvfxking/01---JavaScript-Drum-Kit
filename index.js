@@ -30,7 +30,7 @@ const playSound = (key, element = undefined) => {
 }
 
 const removeTransition = (element) => {
-    if (element.propertyName !== 'border-bottom-color') return;
+    if (element.propertyName !== "transform") return;
     element.currentTarget.classList.remove('key-press');
 }
 
